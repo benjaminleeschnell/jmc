@@ -112,6 +112,10 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	margin-top: -100px;
 }
 
+#bloc-3 p {
+	font-size: 1.1em;
+}
+
 /* = NavBar
 -------------------------------------------------------------- */
 
