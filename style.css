@@ -174,6 +174,10 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 .nav-invert .navbar-header, .nav-invert .navbar-brand{
 	float:right;
 }
+
+#bloc-4-mobile {
+	display: none;
+}
 @media (min-width: 768px){
 	.site-navigation{
 		position:absolute;
@@ -378,6 +382,12 @@ iframe{
 }
 @media (max-width: 768px)
 {
+    #bloc-4 {
+    	display: none;
+    }
+    #bloc-4-mobile {
+    	display: block;
+    }
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
     .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */  
