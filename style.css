@@ -523,4 +523,7 @@ iframe{
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    #bloc-2 img {
+    	margin: 0 auto;
+    }
 }
