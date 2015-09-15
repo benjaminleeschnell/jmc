@@ -186,6 +186,9 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 #bloc-4-mobile {
 	display: none;
 }
+#mobile-about-img{
+	display: none;
+}
 @media (min-width: 768px){
 	.site-navigation{
 		position:absolute;
@@ -395,6 +398,12 @@ iframe{
     }
     #bloc-4-mobile {
     	display: block;
+    }
+    #mobile-about-img{
+    	display: block;
+    }
+    #reg-about-img {
+    	display: none;
     }
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
