@@ -183,13 +183,12 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	float:right;
 }
 
-#bloc-4-mobile {
+/*#bloc-4-mobile {
 	display: none;
-}
-#mobile-about-img{
+}*/
+/*#mobile-about-img{
 	display: none;
-	text-align: center;
-}
+}*/
 @media (min-width: 768px){
 	.site-navigation{
 		position:absolute;
@@ -401,12 +400,12 @@ iframe{
 }
 @media (max-width: 767px)
 {
-	 #bloc-4 {
+	/* #bloc-4 {
     	display: none;
     }
     #bloc-4-mobile {
     	display: block;
-    }
+    }*/
     .page-container{
         overflow-x: hidden;
         position:relative;
@@ -541,15 +540,15 @@ iframe{
     }
 }
 
-@media (max-width: 650px)
-{
+@media (max-width: 650px){
 	
-    #mobile-about-img{
+   /* #mobile-about-img {
     	display: block;
+    	text-align: center;
     }
     #reg-about-img {
     	display: none;
-    }
+    }*/
     .bloc{
         padding-left: 20px; 
         padding-right: 20px;  
