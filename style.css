@@ -386,7 +386,9 @@ iframe{
 	background-color:#ffffff;
 }
 
-
+.contact-mobile {
+	display: none;
+}
 
 
 /* = Mobile adjustments 
@@ -407,6 +409,15 @@ iframe{
 }
 @media (max-width: 767px)
 {
+	/* .mg-md {
+	 	margin-top: 20px;
+	 	margin-bottom: 0px;
+	 }*/
+
+	 .voffset {
+	 	margin-top: -60px !important;
+	 }
+
 	 #mobile-about-img {
     	display: block;
     	text-align: center;
@@ -422,8 +433,13 @@ iframe{
     	margin-top: -100px;
     }
     #bloc-5{
-    	margin-top: -100px
+    	margin-top: -50px
     }
+
+    .contact-mobile {
+    	display: initial;
+    }
+
     .page-container{
         overflow-x: hidden;
         position:relative;
